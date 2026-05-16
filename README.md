@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;height=260&amp;color=gradient&amp;text=HarryPotter1tech&amp;fontAlign=50&amp;desc=%E9%BB%84%E5%AD%90%E6%98%82%20|%20Embedded%20%26%20Robotics%20Developer&amp;descAlignY=62&amp;descAlign=50&amp;animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=gradient&text=HarryPotter1tech&fontAlign=50&desc=Embedded%20%7C%20Robotics%20Developer&descAlignY=68&descAlign=50&animation=fadeIn" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=HarryPotter1tech&amp;color=F99E1A&amp;style=flat-square" />
+  <img src="https://komarev.com/ghpvc/?username=HarryPotter1tech&color=F99E1A&style=flat-square" />
 </p>
 
 ## About Me
@@ -47,45 +47,37 @@ Embedded & robotics developer from Shenzhen. Focused on STM32/HPM real-time cont
 ## 📊 Stats
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HarryPotter1tech/HarryPotter1tech/output/github-contribution-grid-snake-dark.svg" />
-    <img alt="Snake" src="https://raw.githubusercontent.com/HarryPotter1tech/HarryPotter1tech/output/github-contribution-grid-snake.svg" />
-  </picture>
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=HarryPotter1tech&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HarryPotter1tech&layout=compact&theme=tokyonight&hide=html" />
 </p>
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=HarryPotter1tech&amp;show_icons=true&amp;count_private=true&amp;include_all_commits=true&amp;theme=tokyonight" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HarryPotter1tech&amp;layout=compact&amp;theme=tokyonight&amp;hide=html" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HarryPotter1tech&amp;layout=pie&amp;theme=tokyonight&amp;hide=html" />
+  <img width="80%" src="https://github-readme-activity-graph.vercel.app/graph?username=HarryPotter1tech&theme=tokyo-night&area=true&hide_border=true" />
 </p>
 
 <p align="center">
-  <img width="80%" src="https://github-readme-activity-graph.vercel.app/graph?username=HarryPotter1tech&amp;theme=tokyo-night&amp;area=true&amp;hide_border=true" />
-</p>
-
-<p align="center">
-  <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=HarryPotter1tech&amp;theme=tokyonight" />
+  <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=HarryPotter1tech&theme=tokyonight" />
 </p>
 
 ---
 
 <p align="center">
   <a href="https://github.com/Alliance-Hardware/SuperCap_Control">
-    <img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=Alliance-Hardware&amp;repo=SuperCap_Control&amp;theme=tokyonight" />
+    <img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=Alliance-Hardware&repo=SuperCap_Control&theme=tokyonight" />
   </a>
   <a href="https://github.com/HarryPotter1tech/alliance_radar_sdr">
-    <img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=HarryPotter1tech&amp;repo=alliance_radar_sdr&amp;theme=tokyonight" />
+    <img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=HarryPotter1tech&repo=alliance_radar_sdr&theme=tokyonight" />
   </a>
   <a href="https://github.com/HarryPotter1tech/alliance_radar_vision_location">
-    <img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=HarryPotter1tech&amp;repo=alliance_radar_vision_location&amp;theme=tokyonight" />
+    <img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=HarryPotter1tech&repo=alliance_radar_vision_location&theme=tokyonight" />
   </a>
   <a href="https://github.com/HarryPotter1tech/radar-2025">
-    <img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=HarryPotter1tech&amp;repo=radar-2025&amp;theme=tokyonight" />
+    <img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=HarryPotter1tech&repo=radar-2025&theme=tokyonight" />
   </a>
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;height=80&amp;section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer" />
 </p>
