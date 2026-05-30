@@ -59,22 +59,6 @@ Embedded & robotics developer from Shenzhen. Focused on STM32/HPM real-time cont
   <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=HarryPotter1tech&theme=tokyonight" />
 </p>
 
----
-
-<p align="center">
-  <a href="https://github.com/Alliance-Hardware/SuperCap_Control">
-    <img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=Alliance-Hardware&repo=SuperCap_Control&theme=tokyonight" />
-  </a>
-  <a href="https://github.com/HarryPotter1tech/alliance_radar_sdr">
-    <img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=HarryPotter1tech&repo=alliance_radar_sdr&theme=tokyonight" />
-  </a>
-  <a href="https://github.com/HarryPotter1tech/alliance_radar_vision_location">
-    <img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=HarryPotter1tech&repo=alliance_radar_vision_location&theme=tokyonight" />
-  </a>
-  <a href="https://github.com/HarryPotter1tech/radar-2025">
-    <img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=HarryPotter1tech&repo=radar-2025&theme=tokyonight" />
-  </a>
-</p>
 
 ---
 
