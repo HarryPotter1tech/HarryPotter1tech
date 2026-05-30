@@ -8,7 +8,7 @@
 
 ## About Me
 
-Embedded & robotics developer from Shenzhen. Focused on STM32/HPM real-time control, RoboMaster competition systems, SDR radar, and ROS2/SLAM.
+Embedded & robotics developer from NanJing. Focused on STM32/HPM real-time control, RoboMaster competition systems, SDR radar, and ROS2/SLAM.
 
 ---
 
