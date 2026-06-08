@@ -8,7 +8,7 @@
 
 ## About Me
 
-Embedded & robotics developer from NanJing. Focused on STM32/HPM real-time control, RoboMaster competition systems, SDR radar, and ROS2/SLAM.
+Embedded & robotics developer from NanJing. Focused on STM32/HPM real-time control, RoboMaster competition systems, SDR radar, solid-state LiDAR, and ROS2/SLAM.
 
 ---
 
@@ -34,10 +34,11 @@ Embedded & robotics developer from NanJing. Focused on STM32/HPM real-time contr
 | Project | Stack | Description |
 |---------|-------|-------------|
 | [SuperCap_Control](https://github.com/Alliance-Hardware/SuperCap_Control) | C · Assembly · STM32G4 | Supercapacitor energy management — chassis closed-loop control |
+| [alliance_radar_location_lidar](https://github.com/HarryPotter1tech/alliance_radar_location_lidar) | C++ · CMake · ROS2 | Solid-state LiDAR localization — WS_30PCD / Livox / Odin multi-sensor fusion |
 | [alliance_radar_sdr](https://github.com/HarryPotter1tech/alliance_radar_sdr) | Python · Shell | SDR-based radar signal processing |
 | [alliance_radar_vision_location](https://github.com/HarryPotter1tech/alliance_radar_vision_location) | C++ · Python · CMake | Vision target localization — RoboMaster radar subsystem |
-| [radar-2025](https://github.com/HarryPotter1tech/radar-2025) | C# · HLSL · Unity | Next-gen radar system |
-| [radar_gui](https://github.com/HarryPotter1tech/radar_gui) | Rust · iced | Radar visualization GUI |
+| [radar-2025](https://github.com/HarryPotter1tech/radar-2025) | C# · Unity · ONNX | ARPS-unity — monocular radar positioning based on Unity engine |
+| [radar_gui](https://github.com/HarryPotter1tech/radar_gui) | Rust · iced | Radar data hub GUI — unified monitor for SDR / laser guidance / vision modules |
 | [person-blog](https://github.com/HarryPotter1tech/person-blog) | TypeScript · React · FastAPI | Personal blog website |
 | [Mathematical-Contest-in-Modeling](https://github.com/HarryPotter1tech/Mathematical-Contest-in-Modeling) | Python | Mathematical modeling competition |
 | [Webmaker](https://github.com/HarryPotter1tech/Webmaker) | Python | Web automation tools |
