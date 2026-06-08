@@ -48,7 +48,7 @@ Embedded & robotics developer from NanJing. Focused on STM32/HPM real-time contr
 ## 📊 Stats
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=HarryPotter1tech&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=HarryPotter1tech&show_icons=true&theme=tokyonight" />
   <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HarryPotter1tech&layout=compact&theme=tokyonight&hide=html" />
 </p>
 
@@ -57,7 +57,7 @@ Embedded & robotics developer from NanJing. Focused on STM32/HPM real-time contr
 </p>
 
 <p align="center">
-  <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=HarryPotter1tech&theme=tokyonight" />
+  <img height="180" src="https://streak-stats.demolab.com/?user=HarryPotter1tech&theme=tokyonight" />
 </p>
 
 
