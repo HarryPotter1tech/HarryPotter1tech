@@ -80,7 +80,7 @@ Currently focused on **multi-sensor fusion** (LiDAR + camera + radar) for autono
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=HarryPotter1tech&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&rank_icon=github" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=HarryPotter1tech&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
   <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HarryPotter1tech&layout=compact&theme=tokyonight&hide=html,css&hide_border=true" />
 </p>
 
