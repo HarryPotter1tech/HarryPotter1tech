@@ -48,7 +48,6 @@ Currently focused on **multi-sensor fusion** (LiDAR + camera + radar) for autono
 | Project | Stack | Updated |
 |---------|-------|---------|
 | [alliance_radar_location_lidar](https://github.com/HarryPotter1tech/alliance_radar_location_lidar) — Solid-state LiDAR localization (WS_30PCD / Livox / Odin multi-sensor fusion) | ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white) ![CMake](https://img.shields.io/badge/-CMake-064F8C?style=flat&logo=cmake&logoColor=white) ![ROS2](https://img.shields.io/badge/-ROS2-22314E?style=flat&logo=ros&logoColor=white) | ![Updated](https://img.shields.io/github/last-commit/HarryPotter1tech/alliance_radar_location_lidar?style=flat&color=F99E1A) |
-| [alliance_radar_sdr](https://github.com/HarryPotter1tech/alliance_radar_sdr) — SDR-based radar signal processing | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![Shell](https://img.shields.io/badge/-Shell-4EAA25?style=flat&logo=gnu-bash&logoColor=white) | ![Updated](https://img.shields.io/github/last-commit/HarryPotter1tech/alliance_radar_sdr?style=flat&color=F99E1A) |
 | [radar-2025](https://github.com/HarryPotter1tech/radar-2025) — ARPS-unity monocular radar positioning on Unity engine | ![C#](https://img.shields.io/badge/-C%23-239120?style=flat&logo=c-sharp&logoColor=white) ![Unity](https://img.shields.io/badge/-Unity-000000?style=flat&logo=unity&logoColor=white) ![ONNX](https://img.shields.io/badge/-ONNX-005CED?style=flat&logo=onnx&logoColor=white) | ![Updated](https://img.shields.io/github/last-commit/HarryPotter1tech/radar-2025?style=flat&color=F99E1A) |
 | [ws30_lidar_core](https://github.com/HarryPotter1tech/ws30_lidar_core) — WS_30PCD_ET3 solid-state lidar core library (UDP, parser, PCD export) | ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white) | ![Updated](https://img.shields.io/github/last-commit/HarryPotter1tech/ws30_lidar_core?style=flat&color=F99E1A) |
 | [radar_gui](https://github.com/HarryPotter1tech/radar_gui) — Unified radar data hub GUI (SDR / laser / vision modules) | ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat&logo=rust&logoColor=white) ![iced](https://img.shields.io/badge/-iced-3B82F6?style=flat) | ![Updated](https://img.shields.io/github/last-commit/HarryPotter1tech/radar_gui?style=flat&color=F99E1A) |
@@ -67,7 +66,6 @@ Currently focused on **multi-sensor fusion** (LiDAR + camera + radar) for autono
 | Project | Stack | Updated |
 |---------|-------|---------|
 | [rmcs_auto_aim_v2_study](https://github.com/HarryPotter1tech/rmcs_auto_aim_v2_study) — Auto Aim System for RoboMaster Control System | ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white) | ![Updated](https://img.shields.io/github/last-commit/HarryPotter1tech/rmcs_auto_aim_v2_study?style=flat&color=F99E1A) |
-| [SuperCap_Control](https://github.com/Alliance-Hardware/SuperCap_Control) — Supercapacitor energy management / chassis closed-loop control | ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=white) ![STM32](https://img.shields.io/badge/-STM32G4-03234B?style=flat&logo=stmicroelectronics&logoColor=white) | — |
 | [alliance_auto_aim_test](https://github.com/HarryPotter1tech/alliance_auto_aim_test) — Low-coupling auto aim system lib | ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white) | ![Updated](https://img.shields.io/github/last-commit/HarryPotter1tech/alliance_auto_aim_test?style=flat&color=F99E1A) |
 
 ### 🎨 Animation & Media
@@ -76,14 +74,6 @@ Currently focused on **multi-sensor fusion** (LiDAR + camera + radar) for autono
 |---------|-------|---------|
 | [Animations](https://github.com/HarryPotter1tech/Animations) — RoboMaster Energy Mechanism animations | ![Blender](https://img.shields.io/badge/-Blender-F5792A?style=flat&logo=blender&logoColor=white) | ![Updated](https://img.shields.io/github/last-commit/HarryPotter1tech/Animations?style=flat&color=F99E1A) |
 | [Tinge-TTS](https://github.com/HarryPotter1tech/Tinge-TTS) — Text-to-Speech project | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) | ![Updated](https://img.shields.io/github/last-commit/HarryPotter1tech/Tinge-TTS?style=flat&color=F99E1A) |
-
-### 🌐 Web & Tools
-
-| Project | Stack | Updated |
-|---------|-------|---------|
-| [person-blog](https://github.com/HarryPotter1tech/person-blog) — Personal blog (React + FastAPI) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white) | ![Updated](https://img.shields.io/github/last-commit/HarryPotter1tech/person-blog?style=flat&color=F99E1A) |
-| [Webmaker](https://github.com/HarryPotter1tech/Webmaker) — Web automation tools | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) | ![Updated](https://img.shields.io/github/last-commit/HarryPotter1tech/Webmaker?style=flat&color=F99E1A) |
-| [Mathematical-Contest-in-Modeling](https://github.com/HarryPotter1tech/Mathematical-Contest-in-Modeling) — Mathematical modeling competition | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) | ![Updated](https://img.shields.io/github/last-commit/HarryPotter1tech/Mathematical-Contest-in-Modeling?style=flat&color=F99E1A) |
 
 ---
 
