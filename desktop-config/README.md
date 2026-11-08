@@ -11,7 +11,7 @@
 | `terminal/gnome-terminal.conf` | gnome-terminal 配置（`dconf dump /org/gnome/terminal/`）：深底 #11151b + 青色 palette + 13% 背景透明 |
 | `qoder/settings.json` | Qoder TUI 自定义主题 `opencode-teal`（深底 + 青色点缀） |
 | `gnome-shell/blur-my-shell-teal-panel.css` | 顶栏青色文字/图标样式（#0e7490），追加到 blur-my-shell 扩展的 stylesheet.css 末尾 |
-| `wallpaper/compose-dual.sh` | 双屏壁纸合成脚本（ffmpeg 模糊填充 + 前景居中，输出 spanned 壁纸并应用） |
+| `wallpaper/compose-dual.sh` | 双屏壁纸合成脚本（ffmpeg 模糊填充 + 前景居中，无损 PNG 输出为 spanned 壁纸并应用） |
 
 ## 关键设置一览
 
@@ -21,7 +21,7 @@
 - 顶栏：blur-my-shell `transparent-panel` 半透明 + 青色文字/图标（本仓库 CSS）
 - 终端：见 `terminal/gnome-terminal.conf`，透明 13%
 - 工作区：固定 4 个，只在主屏（AOC）切换，副屏窗口固定可见
-- 壁纸：`picture-options=spanned`，`7504x2304` 横跨双屏
+- 壁纸：`picture-options=spanned`，`7504x2304` 横跨双屏（`qy-dual-hd.png`，由 47MB 4x 原图无损合成）
 
 ## 恢复方法
 
