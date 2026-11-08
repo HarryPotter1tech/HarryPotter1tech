@@ -1,0 +1,8 @@
+/* panel text/icons teal for readability on light blurred wallpaper */
+#panel StLabel,
+#panel .panel-button,
+#panel .clock,
+#panel .panel-button .clock-display StIcon,
+#panel .panel-button StIcon {
+  color: #0e7490;
+}

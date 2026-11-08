@@ -1,0 +1,74 @@
+{
+  "securityScan": {
+    "l1StaticCheck": true,
+    "l2LightweightScan": true,
+    "l3DeepScan": true
+  },
+  "permissions": {
+    "additionalDirectories": [],
+    "trustDirectories": [
+      "/home/pinkpanda/linux-ALGORITHM/slam_ba",
+      "/home/pinkpanda"
+    ]
+  },
+  "security": {
+    "auth": {
+      "selectedType": "qoder-browser"
+    }
+  },
+  "model": {
+    "name": "dmodel"
+  },
+  "ui": {
+    "theme": "opencode-teal",
+    "autoThemeSwitching": false,
+    "customThemes": {
+      "opencode-teal": {
+        "type": "custom",
+        "name": "opencode-teal",
+        "text": {
+          "primary": "#e8eaed",
+          "secondary": "#9ba3ad",
+          "link": "#6bd3c5",
+          "accent": "#5fd0c0"
+        },
+        "background": {
+          "primary": "#11151b",
+          "diff": {
+            "added": "#12352e",
+            "removed": "#3a1c22"
+          }
+        },
+        "border": {
+          "default": "#2b323c",
+          "focused": "#5fd0c0"
+        },
+        "ui": {
+          "comment": "#7d8694",
+          "symbol": "#8b95a3",
+          "gradient": ["#5fd0c0", "#3f9fb8"]
+        },
+        "status": {
+          "error": "#f07880",
+          "success": "#7dd6a0",
+          "warning": "#e0c07a"
+        },
+        "Background": "#11151b",
+        "Foreground": "#e8eaed",
+        "LightBlue": "#7fd4e4",
+        "AccentBlue": "#5fb4e8",
+        "AccentPurple": "#b08ce8",
+        "AccentCyan": "#5fd0c0",
+        "AccentGreen": "#7dd6a0",
+        "AccentYellow": "#e0c07a",
+        "AccentRed": "#f07880",
+        "DiffAdded": "#7dd6a0",
+        "DiffRemoved": "#f07880",
+        "Comment": "#7d8694",
+        "Gray": "#9ba3ad",
+        "DarkGray": "#4d5560",
+        "GradientColors": ["#5fd0c0", "#3f9fb8"]
+      }
+    }
+  }
+}
