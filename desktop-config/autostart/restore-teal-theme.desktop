@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Restore Teal Theme
+Comment=登录时恢复青色主题（Papirus-Teal 图标 + Yaru-viridian GTK）
+Exec=/home/pinkpanda/.local/bin/restore-teal-theme.sh
+X-GNOME-Autostart-enabled=true
+Terminal=false

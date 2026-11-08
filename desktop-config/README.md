@@ -12,6 +12,7 @@
 | `qoder/settings.json` | Qoder TUI 自定义主题 `opencode-teal`（深底 + 青色点缀） |
 | `gnome-shell/blur-my-shell-teal-panel.css` | 顶栏青色文字/图标样式（#0e7490），追加到 blur-my-shell 扩展的 stylesheet.css 末尾 |
 | `wallpaper/compose-dual.sh` | 双屏壁纸合成脚本（ffmpeg 模糊填充 + 前景居中，无损 PNG 输出为 spanned 壁纸并应用） |
+| `autostart/` | 登录自启守护：恢复 Papirus-Teal 图标 + viridian GTK（防「强调色」覆盖） |
 
 ## 关键设置一览
 
@@ -63,6 +64,15 @@ gnome-extensions disable blur-my-shell@aunetx && sleep 2 && gnome-extensions ena
 ```bash
 bash wallpaper/compose-dual.sh ~/.local/share/wallpapers/qy-fan-anime.png
 ```
+
+### 主题持久化守护
+Ubuntu「设置 → 外观 → 强调色」会同时覆盖 GTK 与图标主题，导致 Papirus-Teal 变回 Yaru 默认。
+```bash
+mkdir -p ~/.local/bin ~/.config/autostart
+cp autostart/restore-teal-theme.sh ~/.local/bin/ && chmod +x ~/.local/bin/restore-teal-theme.sh
+cp autostart/restore-teal-theme.desktop ~/.config/autostart/
+```
+之后每次登录都会自动恢复青色主题。
 
 ## 备注
 
