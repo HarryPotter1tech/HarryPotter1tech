@@ -6,3 +6,14 @@
 #panel .panel-button StIcon {
   color: #0e7490;
 }
+/* 弹窗(日历/系统菜单/应用菜单)半透明磨砂玻璃 */
+.popup-menu-boxpointer {
+  -arrow-background-color: rgba(21, 25, 31, 0.72);
+  -arrow-border-color: rgba(255, 255, 255, 0.10);
+  -arrow-border-width: 1px;
+  -arrow-border-radius: 14px;
+}
+.popup-menu-content {
+  background-color: transparent;
+  border-radius: 14px;
+}
