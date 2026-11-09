@@ -10,7 +10,8 @@
 | `gsettings/` | 各 GSettings schema 的完整导出（`gsettings list-recursively` 格式） |
 | `terminal/gnome-terminal.conf` | gnome-terminal 配置（`dconf dump /org/gnome/terminal/`）：深底 #11151b + 青色 palette + 13% 背景透明 |
 | `qoder/settings.json` | Qoder TUI 自定义主题 `opencode-teal`（深底 + 青色点缀） |
-| `gnome-shell/blur-my-shell-teal-panel.css` | 顶栏青色文字/图标样式（#0e7490），追加到 blur-my-shell 扩展的 stylesheet.css 末尾 |
+| `gnome-shell/blur-my-shell-teal-panel.css` | 顶栏青色文字/图标样式（#0e7490）+ 弹窗半透明毛玻璃底，追加到 blur-my-shell 扩展的 stylesheet.css 末尾 |
+| `gnome-shell/popup.js` | blur-my-shell 补丁组件：给日历/系统菜单/应用菜单弹窗加真实背景模糊（Shell.BlurEffect） |
 | `wallpaper/compose-dual.sh` | 双屏壁纸合成脚本（ffmpeg 模糊填充 + 前景居中，无损 PNG 输出为 spanned 壁纸并应用） |
 | `autostart/` | 登录自启守护：恢复 Papirus-Teal 图标 + viridian GTK（防「强调色」覆盖） |
 
@@ -53,11 +54,18 @@ cp qoder/settings.json ~/.qoder/settings.json
 # 重启 Qoder，或在会话内运行 /theme 选择 "opencode-teal"
 ```
 
-### 顶栏青色文字/图标
+### 顶栏青色文字/图标 + 弹窗毛玻璃
 ```bash
 cat gnome-shell/blur-my-shell-teal-panel.css >> ~/.local/share/gnome-shell/extensions/blur-my-shell@aunetx/stylesheet.css
+cp gnome-shell/popup.js ~/.local/share/gnome-shell/extensions/blur-my-shell@aunetx/components/popup.js
+# 在扩展的 extension.js 中注册 popup 组件（4 处小改动）:
+# 1. 顶部 import 区加: const Popup = Me.imports.components.popup;
+# 2. enable() 里组件实例化区加: this._popup_blur = new Popup.PopupBlur(...init());
+# 3. disable() 里加: this._popup_blur.disable(); this._popup_blur = null;
+# 4. _enable_components() 末尾加: if (!this._popup_blur.enabled) this._popup_blur.enable();
 gnome-extensions disable blur-my-shell@aunetx && sleep 2 && gnome-extensions enable blur-my-shell@aunetx
 ```
+注意：扩展更新后补丁会丢失，需重新应用。
 
 ### 壁纸
 源图（4x 高清）位于 `~/.local/share/wallpapers/qy-fan-anime.png`，体积过大不入库：
